@@ -15,9 +15,9 @@ namespace ClickEvent
         //}
         delegate double ProcessDelegate(double param1, double param2);
 
-        private static double Divide(double param1, double param2)
+        private static double Divide(double pa1, double pa2)
         {
-            return param1 / param2;
+            return pa1 / pa2;
         }
 
         private static double Multiply(double param1, double param2)
